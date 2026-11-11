@@ -1,0 +1,14 @@
+{
+  "name": "Finance (prototype)",
+  "short_name": "Finance",
+  "icons": [
+    { "src": "/android-chrome-192x192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/logo-pwa.png", "type": "image/png", "sizes": "512x512" },
+    { "src": "/logo-pwa-maskable.png", "type": "image/png", "sizes": "512x512", "purpose": "maskable" }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#F9F9F9",
+  "background_color": "#F9F9F9"
+}

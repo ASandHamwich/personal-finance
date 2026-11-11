@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Finance — server not running</title>
+<style>
+  body { font: 15px -apple-system, system-ui, sans-serif; background: #f9f9f9; color: #1a1a1a; display: grid; place-items: center; min-height: 100vh; margin: 0; }
+  @media (prefers-color-scheme: dark) { body { background: #111; color: #eee; } }
+  .box { max-width: 420px; text-align: center; padding: 16px; }
+  button { font: inherit; padding: 8px 16px; border-radius: 8px; border: 1px solid #888; background: transparent; color: inherit; cursor: pointer; }
+  small { opacity: .6; }
+</style>
+</head>
+<body>
+<div class="box">
+  <img src="/logo-offline.svg" alt="" width="64">
+  <h2>The finance server isn't running</h2>
+  <p>This is what the "Add to Dock" app shows when Postgres/Rails are down (served from the service-worker cache).</p>
+  <button onclick="location.href='/'">Try again</button>
+  <p><small>PROTOTYPE — offline fallback</small></p>
+</div>
+</body>
+</html>
